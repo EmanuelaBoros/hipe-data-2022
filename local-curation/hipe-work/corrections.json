@@ -1,0 +1,626 @@
+{
+  "source_commit": "147f5bc",
+  "scope": "Local curated v2.1 derivative; original releases unchanged",
+  "edits": [
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2141,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "M",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-comp.title",
+        "O",
+        "_",
+        "_",
+        "NoSpaceAfter"
+      ],
+      "after": [
+        "M",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "Q202790",
+        "_",
+        "NoSpaceAfter"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2142,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        ".",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-comp.title",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        ".",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.title",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2143,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "Théodore",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-comp.name",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        "Théodore",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "B-comp.name",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2144,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "Reinach",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-comp.name",
+        "O",
+        "_",
+        "_",
+        "NoSpaceAfter"
+      ],
+      "after": [
+        "Reinach",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.name",
+        "O",
+        "Q202790",
+        "_",
+        "NoSpaceAfter"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2145,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        ",",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        ",",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "O",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2146,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "député",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-comp.function",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        "député",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2147,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "radical",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-comp.function",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        "radical",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.function",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2148,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "de",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-comp.function",
+        "O",
+        "_",
+        "_",
+        "_"
+      ],
+      "after": [
+        "de",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.function",
+        "O",
+        "Q202790",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2149,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "la",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-comp.function",
+        "O",
+        "_",
+        "_",
+        "EndOfLine"
+      ],
+      "after": [
+        "la",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.function",
+        "O",
+        "Q202790",
+        "_",
+        "EndOfLine"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 2150,
+      "document": "EXP-1908-01-21-a-i0053",
+      "issue": 14,
+      "reason": "Restore person from author PR 15; retain Savoie in nested annotation.",
+      "before": [
+        "Savoie",
+        "B-loc",
+        "O",
+        "B-loc.adm.reg",
+        "O",
+        "I-comp.function",
+        "O",
+        "Q12745",
+        "_",
+        "NoSpaceAfter"
+      ],
+      "after": [
+        "Savoie",
+        "I-pers",
+        "O",
+        "I-pers.ind",
+        "O",
+        "I-comp.function",
+        "B-loc.adm.reg",
+        "Q202790",
+        "_",
+        "NoSpaceAfter"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 68271,
+      "document": "GDL-1828-01-04-a-i0017",
+      "issue": 18,
+      "reason": "Honorific sieur is a title; consistent with existing corpus example.",
+      "before": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ],
+      "after": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 72065,
+      "document": "GDL-1828-09-16-a-i0014",
+      "issue": 18,
+      "reason": "Honorific sieur is a title; consistent with existing corpus example.",
+      "before": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ],
+      "after": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 72669,
+      "document": "GDL-1828-09-16-a-i0014",
+      "issue": 18,
+      "reason": "Honorific sieur is a title; consistent with existing corpus example.",
+      "before": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "NIL",
+        "_",
+        "EndOfLine"
+      ],
+      "after": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "NIL",
+        "_",
+        "EndOfLine"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 72792,
+      "document": "GDL-1828-09-16-a-i0014",
+      "issue": 18,
+      "reason": "Honorific sieur is a title; consistent with existing corpus example.",
+      "before": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ],
+      "after": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "NIL",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "hipe2020/fr/HIPE-2022-v2.1-hipe2020-train-fr.tsv",
+      "line": 72912,
+      "document": "GDL-1828-09-16-a-i0014",
+      "issue": 18,
+      "reason": "Honorific sieur is a title; consistent with existing corpus example.",
+      "before": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.function",
+        "O",
+        "NIL",
+        "_",
+        "EndOfLine"
+      ],
+      "after": [
+        "sieur",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "B-comp.title",
+        "O",
+        "NIL",
+        "_",
+        "EndOfLine"
+      ]
+    },
+    {
+      "file": "hipe2020/de/HIPE-2022-v2.1-hipe2020-train-de.tsv",
+      "line": 61894,
+      "document": "NZZ-1938-08-09-d-p0002",
+      "issue": 19,
+      "reason": "Cyclist in numbered race standings; retain original OCR spelling and QID.",
+      "before": [
+        "Victio",
+        "B-org",
+        "O",
+        "B-org.ent",
+        "O",
+        "O",
+        "O",
+        "Q1357762",
+        "_",
+        "_"
+      ],
+      "after": [
+        "Victio",
+        "B-pers",
+        "O",
+        "B-pers.ind",
+        "O",
+        "O",
+        "O",
+        "Q1357762",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "newseye/de/HIPE-2022-v2.1-newseye-dev-de.tsv",
+      "line": 32928,
+      "document": "dev_de_10",
+      "issue": 16,
+      "reason": "Use outer ORG and inner PER per author PR 17; outer ORG QID consistent across span.",
+      "before": [
+        "Haa¬",
+        "B-PER",
+        "_",
+        "O",
+        "_",
+        "_",
+        "B-ORG",
+        "Q1405350",
+        "_",
+        "NoSpaceAfter|EndOfLine"
+      ],
+      "after": [
+        "Haa¬",
+        "B-ORG",
+        "_",
+        "O",
+        "_",
+        "_",
+        "B-PER",
+        "Q56322697",
+        "_",
+        "NoSpaceAfter|EndOfLine"
+      ]
+    },
+    {
+      "file": "newseye/de/HIPE-2022-v2.1-newseye-dev-de.tsv",
+      "line": 32929,
+      "document": "dev_de_10",
+      "issue": 16,
+      "reason": "Use outer ORG and inner PER per author PR 17; outer ORG QID consistent across span.",
+      "before": [
+        "senstein",
+        "I-PER",
+        "_",
+        "O",
+        "_",
+        "_",
+        "I-ORG",
+        "Q56322697",
+        "_",
+        "_"
+      ],
+      "after": [
+        "senstein",
+        "I-ORG",
+        "_",
+        "O",
+        "_",
+        "_",
+        "I-PER",
+        "Q56322697",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "newseye/de/HIPE-2022-v2.1-newseye-dev-de.tsv",
+      "line": 32930,
+      "document": "dev_de_10",
+      "issue": 16,
+      "reason": "Use outer ORG and inner PER per author PR 17; outer ORG QID consistent across span.",
+      "before": [
+        "&",
+        "O",
+        "_",
+        "O",
+        "_",
+        "_",
+        "I-ORG",
+        "Q56322697",
+        "_",
+        "_"
+      ],
+      "after": [
+        "&",
+        "I-ORG",
+        "_",
+        "O",
+        "_",
+        "_",
+        "O",
+        "Q56322697",
+        "_",
+        "_"
+      ]
+    },
+    {
+      "file": "newseye/de/HIPE-2022-v2.1-newseye-dev-de.tsv",
+      "line": 32931,
+      "document": "dev_de_10",
+      "issue": 16,
+      "reason": "Use outer ORG and inner PER per author PR 17; outer ORG QID consistent across span.",
+      "before": [
+        "Vogler",
+        "O",
+        "_",
+        "O",
+        "_",
+        "_",
+        "I-ORG",
+        "Q56322697",
+        "_",
+        "_"
+      ],
+      "after": [
+        "Vogler",
+        "I-ORG",
+        "_",
+        "O",
+        "_",
+        "_",
+        "O",
+        "Q56322697",
+        "_",
+        "_"
+      ]
+    }
+  ]
+}
