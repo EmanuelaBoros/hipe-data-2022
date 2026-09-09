@@ -1,8 +1,9 @@
-"""Reproducible HIPE v2.1 annotation overlays and document-level BIO audit."""
+"""Reproducible HIPE v3.0 release from v2.1 annotation overlays and document-level BIO audit."""
 import argparse
 import collections
 import hashlib
 import json
+import shutil
 from pathlib import Path
 
 
@@ -73,8 +74,9 @@ def main():
         relative = str(path.relative_to(source))
         lines, rows = read(path)
         changes = edits.pop(relative, [])
-        payloads[relative] = apply(lines, rows, changes)
-        results[relative] = dict(sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
+        target = relative.replace('HIPE-2022-v2.1-', 'HIPE-2022-v3.0-')
+        payloads[target] = apply(lines, rows, changes)
+        results[target] = dict(source_file='data/v2.1/'+relative, sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                                  edits=len(changes), findings=audit(rows))
     if edits:
         raise ValueError(f'Missing files: {list(edits)}')
@@ -84,6 +86,12 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(payload)
         results[relative]['after_findings'] = audit(read(dest)[1])
+    for path in source.rglob('*'):
+        if path.is_file() and not path.name.startswith('HIPE-2022-'):
+            dest = output/path.relative_to(source)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(path, dest)
+    shutil.copy2(Path(__file__).resolve().parents[1]/'RELEASE-v3.0.md', output/'README.md')
     (output/'audit.json').write_text(json.dumps(results, indent=2, ensure_ascii=False)+'\n')
     print(json.dumps(dict(files=len(results), edits=sum(v['edits'] for v in results.values()),
                          before=dict(collections.Counter(f['kind'] for v in results.values() for f in v['findings'])),

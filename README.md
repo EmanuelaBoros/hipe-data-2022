@@ -1,5 +1,10 @@
 # HIPE-2022-data
 
+**Latest local release: [v3.0 corrected data](data/v3.0/README.md).**
+Includes 20 targeted annotation corrections from v2.1; see the release notes for
+remaining issues and [curation tools](curation/README.md) for reproducibility.
+This is an independent release maintained in EmanuelaBoros/hipe-data-2022.
+
 [HIPE 2022 shared task](https://hipe-eval.github.io/HIPE-2022/) is a [CLEF 2022 Evaluation Lab](https://clef2022.clef-initiative.eu/) on **named entity recognition and classification (NERC) and entity linking (EL) in multilingual historical documents**.     
 
 Following the first [CLEF-HIPE-2020](https://impresso.github.io/CLEF-HIPE-2020) evaluation lab on historical newspapers in three languages, HIPE-2022 is based on diverse datasets and aims at confronting systems with the challenges of **dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets**. The objective is to gain new insights into the _transferability_ of named entity processing approaches across languages, time periods, document types, and annotation tag sets.

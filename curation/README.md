@@ -1,7 +1,6 @@
 # HIPE local curation
 
-This work addresses the upstream issue backlog in a separately generated v2.1
-derivative. It does not replace the original benchmark or claim improved NER
+This work addresses the upstream issue backlog in a v3.0 release generated from v2.1. It does not replace the original benchmark or claim improved NER
 scores. Source inspected: commit `147f5bc` of the user's repository.
 
 ## Run
@@ -10,12 +9,12 @@ From this directory:
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 tools/curate.py --repo ../.. --output ../../data/curated-local-v1
+python3 tools/curate.py --repo .. --output ../data/v3.0
 ```
 
 The output directory must not exist. `corrections.json` guards each correction
 with its document ID, line and complete original row. The tool audits all 66
-HIPE task TSVs in v2.1; supplementary OCR correction tables are outside its scope.
+HIPE task TSVs in v2.1; supplementary OCR correction tables are copied unchanged but not audited.
 `audit.json` includes input hashes and before/after findings. It reports six
 annotation layers separately, so counts are not unique entities. Masked file
 variants are included and may duplicate findings.
@@ -41,6 +40,10 @@ archive, not newly created GitHub issues. Upstream issue states are unchanged.
 The first audit reports 395 invalid BIO transitions and 1,642 continuations
 across sentence markers. The 20 targeted row edits do not change these totals.
 The derivative is therefore not yet a fully validated training release.
+
+The correction manifest intentionally uses v2.1 paths and original row values as
+provenance. Generated task filenames use v3.0. Primary-dataset metadata versions
+and original_source fields retain their source values.
 
 ## NER work next
 
